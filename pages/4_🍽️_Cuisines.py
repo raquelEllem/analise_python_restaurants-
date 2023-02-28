@@ -233,7 +233,7 @@ df = read_processed_data()
 
 countries, top_n, cuisines = make_sidebar(df)
 
-st.markdown("# :knife_fork_plate: Visão Tipos de Cusinhas")
+st.markdown("# :knife_fork_plate: Visão Tipos de Cozinhas")
 
 df_restaurants = top_restaurants(countries, cuisines, top_n)
 
