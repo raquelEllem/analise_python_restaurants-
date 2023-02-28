@@ -9,28 +9,42 @@ Nesse sentido, você foi contratado como um Cientista de Dados com o objetivo de
 
 A empresa Fome Zero adota um modelo de negócio que funciona como intermediário entre os estabelecimentos gastronômicos e os consumidores finais. Como forma de acompanhar o desenvolvimento dessas operações, o CEO tem interesse em monitorar algumas métricas de crescimento fundamentais, tais como:
 
+
 ### Do lado dos Países:
+
 Quantidade de restaurantes registrados por país.
+
 Quantidade de cidades registradas por país.
+
 Média de avaliações feitas por país.
+
 Média de preço de um prato para duas pessoas por país.
+
 
 ### Do lado das cidades:
 Top 10 cidades com mais restaurantes na base de dados.
+
 Top 7 cidades com restaurantes com média de avaliação acima de 4.
+
 Top 7 cidades com restaurantes com média de avaliação abaixo de 2.5.
+
 Top 10 cidades com mais restaurantes com tipos culinários distintos.
+
 
 ### Do lado dos restaurantes:
 Melhores restaurantes dos principais tipos culinários.
+
 Top 10 restaurantes.
+
 Top 10 melhores tipos de culinárias.
+
 Top 10 piores tipos de culinárias.
 
 
 # 2. Premissas assumidas para a análise
 A análise foi realizada com dados entre 22/02/2023 e 28/02/2023.
 Os 3 principais visões do negócio foram: Visão dos países, visão das cidades e visão dos tipos de culinária.
+
 
 # 3. Estratégia da solução
 O painel estratégico foi desenvolvido utilizando as métricas que refletem as 3 principais visões do modelo de negócio da empresa:
@@ -45,22 +59,34 @@ O painel estratégico foi desenvolvido utilizando as métricas que refletem as 3
 
 Cada visão é representada pelo seguinte conjunto de métricas:
 
+
 ### Do lado dos Países:
 Quantidade de restaurantes registrados por país.
+
 Quantidade de cidades registradas por país.
+
 Média de avaliações feitas por país.
+
 Média de preço de um prato para duas pessoas por país.
+
 
 ### Do lado das cidades:
 Top 10 cidades com mais restaurantes na base de dados.
+
 Top 7 cidades com restaurantes com média de avaliação acima de 4.
+
 Top 7 cidades com restaurantes com média de avaliação abaixo de 2.5.
+
 Top 10 cidades com mais restaurantes com tipos culinários distintos.
+
 
 ### Do lado dos restaurantes:
 Melhores restaurantes dos principais tipos culinários.
+
 Top 10 restaurantes.
+
 Top 10 melhores tipos de culinárias.
+
 Top 10 piores tipos de culinárias.
 
 
@@ -82,11 +108,16 @@ Painel online, hospedado em um Cloud e disponível para acesso em qualquer dispo
 O painel pode ser acessado através desse link: https://raquelellem-fome-zero.streamlit.app
 
 # 6. Conclusão
-O propósito deste projeto é desenvolver um conjunto otimizado de gráficos e/ou tabelas para apresentar essas métricas ao CEO de forma mais eficiente. Com base na perspectiva da empresa, podemos concluir a qualidade dos restaurantes pode variar significativamente de um lugar para outro, o que pode ser influenciado por fatores como a cultura culinária local, a competição no mercado, os padrões de higiene e também pela segurança alimentar.
+O propósito deste projeto é desenvolver um conjunto otimizado de gráficos e/ou tabelas para apresentar essas métricas ao CEO de forma mais eficiente. 
+
+Com base na perspectiva da empresa, podemos concluir a qualidade dos restaurantes pode variar significativamente de um lugar para outro, o que pode ser influenciado por fatores como a cultura culinária local, a competição no mercado, os padrões de higiene e também pela segurança alimentar.
 
 # 7. Próximo passos
 Reduzir o número de métricas.
+
 Criar novos filtros.
+
 Adicionar novas visões de negócio.
+
 
 
