@@ -135,7 +135,7 @@ def most_cuisines(countries):
         y="cuisines",
         text="cuisines",
         color="country",
-        title="Top 10 Cidades mais restaurantes com tipos culinários distintos",
+        title="Top 10 Cidades com mais restaurantes com tipos culinários distintos",
         labels={
             "city": "Cidades",
             "cuisines": "Quantidade de Tipos Culinários Únicos",
